@@ -4,7 +4,8 @@
   "description": "This is a package to host a websocket server so that clients from anywhere can connect via this server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/denesh-globotix/websocket-server-nodejs/issues"
   },
-  "homepage": "https://github.com/denesh-globotix/websocket-server-nodejs#readme"
+  "homepage": "https://github.com/denesh-globotix/websocket-server-nodejs#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
